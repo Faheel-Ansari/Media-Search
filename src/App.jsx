@@ -11,7 +11,7 @@ import {
   getRandomQuery,
   setActiveTab,
 } from "./features/SearchSlice";
-import Pagination from "./components/pagination";
+import Pagination from "./components/Pagination";
 
 function App() {
   const dispatch = useDispatch();
