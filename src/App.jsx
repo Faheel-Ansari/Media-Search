@@ -1,7 +1,7 @@
 import { useEffect, useState} from "react";
 import { fetchPhotos, fetchVideos } from "./api/mediaApi";
 import { useDispatch, useSelector } from "react-redux";
-import SearchBar from "./components/searchBar";
+import SearchBar from "./components/SearchBar";
 import MasonaryLayout from "./components/MasonaryLayout";
 import LoadingScreen from "./components/LoadingScreen";
 import {
