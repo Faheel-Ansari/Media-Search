@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://faheel-ansari.github.io/media-search/",
+  "homepage": "https://faheel-ansari.github.io/Media-Search/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
