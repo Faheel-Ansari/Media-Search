@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ImageModal from "./ImageModal";
 import { useDispatch, useSelector } from "react-redux";
-import Card from "./card";
+import Card from "./Card";
 import { setLikedPost } from "../features/LikeSlice";
 import { setSavedPost } from "../features/SavedSlice";
 import { downloadPhoto, downloadVideo } from "../api/mediaApi";
