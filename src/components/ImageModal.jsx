@@ -35,7 +35,7 @@ const ImageModal = ({
           </h3>
 
           <div className="flex space-x-2 lg:space-x-4">
-            <button
+            {type === "photo" && <button
               onClick={(e) => {
                 e.stopPropagation();
                 onDownload(id, src, type, downloadUrl);
@@ -43,7 +43,8 @@ const ImageModal = ({
               className="text-white hover:text-emerald-600 transition-all ease-in-out duration-200 cursor-pointer"
             >
               <Download strokeWidth={3} className="w-7 h-7 md:w-9 md:h-9 lg:w-12 lg:h-12" />
-            </button>
+            </button>}
+            
             <button
               onClick={(e) => {
                 e.stopPropagation();
